@@ -1,1 +1,1 @@
-# cryptdemo
+The file encrypts and decrypts a short message two ways. Symmetric AES-256-GCM and asymmetric RSA-2048. It writes the keys, input, ciphertext, and decrypted output to `output.txt`. Keys are freshly generated each run, so the values change every time.
