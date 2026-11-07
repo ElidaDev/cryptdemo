@@ -1,0 +1,54 @@
+INPUT (plaintext): Meet me at 10am. Bring the report.
+
+=== SYMMETRIC (AES-256-GCM) ===
+Key (shared secret, hex): f245adbdd86ab1ebd20a4bdf0854be8cbd24322873d4e9bf23a90da9b0759427
+Nonce (hex):              1234f0dd7f998de54d86da45
+Ciphertext (hex):         f6c610daff6886b56ec88079d22dd909ec8d5a42368c238b83f295c739024d1abe653e2dbddabd15906251d11bef6f54bcd6
+Decrypted output:         Meet me at 10am. Bring the report.
+Match original:           True
+
+=== ASYMMETRIC (RSA-2048, OAEP/SHA-256) ===
+Public key (used to encrypt):
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1vcg2JT5lNfY5KmqtNm2
+LhOcDOHFjg2fXGvvmEtocTF35ziP7i0KfvEnRCSXk+C5lH/Q4tVr0YUZTkRBf/xv
+ZA+UwUNWnntavsGbXPByB2wXLbd/DjlyWYdtPhdmN9SBLuxfU0jYdqaL5PoRo+bd
+px+HAgWLUb3CpayfsbelIxqcgF1okv/A0BCmaoLgNc2njQomgFUoT3UvTOzbLl1R
+7c796JXUEJCYJeqiRa2Yca63oE7GFCVMnePhQ7/I9N0pIOGKfkHlAzeqCFBOkGHx
+J8WADldQRC9QlR9Yo9TE0qBxuTHJ2h1J8x/oa/WIcVvFY2R0EnwLGIPJbF5cszhR
+dQIDAQAB
+-----END PUBLIC KEY-----
+
+Private key (used to decrypt) -- demo only, never share or publish a real one:
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDW9yDYlPmU19jk
+qaq02bYuE5wM4cWODZ9ca++YS2hxMXfnOI/uLQp+8SdEJJeT4LmUf9Di1WvRhRlO
+REF//G9kD5TBQ1aee1q+wZtc8HIHbBctt38OOXJZh20+F2Y31IEu7F9TSNh2povk
++hGj5t2nH4cCBYtRvcKlrJ+xt6UjGpyAXWiS/8DQEKZqguA1zaeNCiaAVShPdS9M
+7NsuXVHtzv3oldQQkJgl6qJFrZhxrregTsYUJUyd4+FDv8j03Skg4Yp+QeUDN6oI
+UE6QYfEnxYAOV1BEL1CVH1ij1MTSoHG5McnaHUnzH+hr9YhxW8VjZHQSfAsYg8ls
+XlyzOFF1AgMBAAECggEAGdzKJByKSYTNiLc7/T2rPDBqSCd6kexkJaWrwg4ifunV
+c+lbcauUFXE0iO+BGA7DrRDSpBPKwL6rbH3sRnZrvWVdf4H3QCJ1qLkY1M3t3iQ8
+RqkKvX6eWhSfyUZd6y4jK67PCjFbr6y6bH5ElIxQUwzJPK5HlHpI2o9h+Crw0H/o
+7USahbx7MOvswfPm0gEAALuhxKpk3CfP073t8BHHkHjFtNp3apCaKaKAWsou/ETD
+it/hV7Cpi9NyQHdOOsvRey8an1kE0D+WcmKli16rGv9Q1R7J1zryFuzrmMqaWLr0
+EZMfw4hMWRbYHz6DZdRKhBM32DmWqq9pMT+w9mwWsQKBgQDrQjJH68wsNztKKKmx
+X2BsvzVnYy1wj90S57R2jb4k8QIJpjdAKSiR2FxwUz/AAtGcRaTWYR8F6Wo5WYtw
+28aLd2nd+mgtkUjWzLKit0i/L/VJtsxVYXEBVbipD2uv0UQge5vmLM+whKz9dfQZ
+5EiXuaR1hF+4mBT32VRUimgKEQKBgQDp6ul+IgjxzpJn9Suux6CRsDEVshh7QFTQ
+YOj0daTHuowgYw8QSW0Ea5UxNxKgYx5XNklF15EZvuO1kgUtquADKgdh47cJKnEx
+aAuDDUJQ/mHqsbfV4Uf6hvvqO+OJqtUcqpC5X+G8vmcPa1sYUmZK7dGxHxTNJ+pK
+EKkgAuwNJQKBgHpel1rTqwMAw6VCW2n4i2ZlWvjpHJSlMEAKJ9NWzSXX+tBcFfcY
+sZKTMRn4I3vTu4YGr8QXBpUDoY4tJpvQpYib14RwIMo6/OFF3lFG9t8DqhnqrIRo
+x+gC16eQbtooBsDCqwfiHTHbAURhm1Pwa1YIaSP7c/LHoHh/Ih9LUuyRAoGBAMNS
+yM3uFZH0cAQmkOdNAiMlAJehMxgXy7qEcYFPitzMRJ32mWl8Jm/+dYG2/vK2UWt5
+hQ2wxxS8dN/0oiZT/OIngiqXPwuESSh8PMCdnbaL869J3rvVdYkYldotT/5wi6t4
+MYjZK2Gzi9MwTcytYYVHuEUyMuhsYBKgftigGAORAoGAHqEBYL3lGNRxvWrZv6xw
++4btYD9tkdRQfeDDjKQmmoHT1dfZXclGsPkozFdYhafaqRbvdQYCfLxkeWrSyXLa
+oFaijaAavJ0PWgELbmaeYLlvBasnafL/q05StQyrJifrQQA/Z/z0Ey3tUL8ucLP1
+PCfaeNgTQ8y4LigXELuhNoM=
+-----END PRIVATE KEY-----
+
+Ciphertext (hex): 58465908bf0c51d6ed26883169f449372f382d9d1171aa1d89785e40ddd4e5081b654df04eabb629e76b5780d2c35b45735debfa48efdda946a89b647d4f8690ac5e1f5f715b829ab6d44dd973309c275f433fe6a8c7e0a626a4eeceaa2dcf7c13b9f3d3daa81cce819f670aaecf84fd1d62edfda6d43d06816cabd120d90f5ddb4916bf4cf5bcbe055aa374c71e533363820dfea805d99b4758cbafe0d9069e474cd4ef62526e3ebdbd63fbe5485516832eddad0b8a9a295a70a7d0aa95c32519be7bef1db95dfab1569929fc1293d6f26347ac767544ed65af88edcf957f3d7703115f9ac26a5256b8badbf15008510134ed8cefe37325d3aa79569f851e79
+Decrypted output: Meet me at 10am. Bring the report.
+Match original:   True
